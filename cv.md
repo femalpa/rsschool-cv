@@ -8,7 +8,7 @@
 * __Discord:__ Nekto#3828
 
 ## About Me
-Llalalalalalla
+I am responsible, diligent and purposeful. Nevertheless, I consider enthusiasm as my main advantage. Since I wrote my very first and simple 'Hello, World!' script, my main goal has been to get as much knowledge and skills about frontend development as I can, to apply for the position of junior developer and change the field of my professional activity. I hope, The Rolling Scopes School will help me with that.
 
 ## Skills
 * HTML5
@@ -18,7 +18,9 @@ Llalalalalalla
 
 ## Code Example 
 ```
-some code snippet
+function multiply(a, b) {
+  return a * b;
+}
 ``` 
 
 ## Experience 
