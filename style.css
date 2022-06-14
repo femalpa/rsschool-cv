@@ -1,1 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color:#f0ffff;
+}
 
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    font-family: 'Nuosu SIL', serif;
+    font-size: 23px;
+
+    min-height: 100vh;
+    margin: 25px; 
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1, h2 {
+    font-family: 'Anton', sans-serif;
+    margin: 20px;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 15px 10px;
+}
+
+section {
+    padding: 15px;
+    width: 75%;
+}
+
+.standart-list {
+    margin-left: 45px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    list-style-type: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+
+    text-decoration: none;
+}
+
+.code-block {
+    border: 1px solid #f0ffff;
+    padding: 15px;
+}
+
+.photo {
+    border: 2px solid #f0ffff;
+    border-radius: 100px;
+
+    width: 250px;
+    height: 250px;
+}
+
+.rss-logo {
+    width: 550px;
+    height: 170px;
+    border: 2px solid #f0ffff;
+    margin-left: 500px;
+    display: inline-block;
+    
+    object-fit: cover;
+    object-position: center;
+
+    opacity: 1;
+    background-color: #ffffff;
+}
